@@ -42,3 +42,14 @@ p {
 .button:hover {
   background: #ff2d55;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+}
